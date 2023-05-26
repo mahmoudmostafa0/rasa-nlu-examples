@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "rasa_nlu_examples"}]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<=3.10"
+python = ">=3.9,<3.11"
 rasa = {version = ">=3.5.8,<3.6.0", python = ">=3.9,<=3.11.3"}
 bpemb = ">=0.3.4"
 gensim = ">=4.3.1,<4.4.0"
